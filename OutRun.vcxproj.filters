@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\Renderer">
+      <UniqueIdentifier>{4b22337f-cae6-4e91-92b9-0c3de17eddae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Renderer\PC">
+      <UniqueIdentifier>{68a795a0-249a-4093-bf46-3ade12bcb401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Platform">
+      <UniqueIdentifier>{86854314-e886-4629-90f4-12bd57815a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Platform\PC">
+      <UniqueIdentifier>{fce380f4-3fae-489c-a294-e39a1ec21b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Image">
+      <UniqueIdentifier>{b9a2254d-ca7f-429d-b969-91c3bf706729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Image\PC">
+      <UniqueIdentifier>{f5420bc8-6448-470a-96f0-3975f9b00ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Circuit">
+      <UniqueIdentifier>{5fe97a2a-c12a-4330-92ed-fdcf28c63b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Input">
+      <UniqueIdentifier>{350c733f-f793-4e56-b7bf-bf7d76a0c265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Input\PC">
+      <UniqueIdentifier>{d13e934d-a9a4-4d3e-82c3-e9b538a2f8b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ASanUtils.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Define.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Platform\Platform.h">
+      <Filter>Archivos de recursos\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Platform\PC\PlatformPC.h">
+      <Filter>Archivos de recursos\Platform\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\Renderer.h">
+      <Filter>Archivos de recursos\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\PC\RendererPC.h">
+      <Filter>Archivos de recursos\Renderer\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Image\Image.h">
+      <Filter>Archivos de recursos\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Camera.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Vector3.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Vector2.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Image\PC\ImagePC.h">
+      <Filter>Archivos de recursos\Image\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RenderThread.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RenderCommand.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Circuit\Circuit.h">
+      <Filter>Archivos de recursos\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Circuit\Segment.h">
+      <Filter>Archivos de recursos\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Car.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Input\Event.h">
+      <Filter>Archivos de recursos\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Input\Input.h">
+      <Filter>Archivos de recursos\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Input\PC\InputPC.h">
+      <Filter>Archivos de recursos\Input\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\checkML.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ConcurrentQueue.h">
+      <Filter>Archivos de recursos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\user_malloc.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Platform\PC\PlatformPC.cpp">
+      <Filter>Archivos de recursos\Platform\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\PC\RendererPC.cpp">
+      <Filter>Archivos de recursos\Renderer\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vector3.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vector2.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Image\PC\ImagePC.cpp">
+      <Filter>Archivos de recursos\Image\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderThread.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Circuit\Circuit.cpp">
+      <Filter>Archivos de recursos\Circuit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Circuit\Segment.cpp">
+      <Filter>Archivos de recursos\Circuit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Car.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Input\PC\InputPC.cpp">
+      <Filter>Archivos de recursos\Input\PC</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
